@@ -1,0 +1,51 @@
+# 数据路径
+path: ""  # dataset root dir
+train:
+  - "F:/AIgesture/HaGRID/trainval/call/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/dislike/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/fist/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/four/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/like/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/mute/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/ok/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/one/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/palm/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/peace/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/peace_inverted/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/rock/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/stop/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/stop_inverted/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/three/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/three2/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/two_up/train.txt"
+  - "F:/AIgesture/HaGRID/trainval/two_up_inverted/train.txt"
+
+val:
+  - "F:/AIgesture/HaGRID/trainval/call/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/dislike/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/fist/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/four/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/like/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/mute/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/ok/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/one/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/palm/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/peace/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/peace_inverted/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/rock/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/stop/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/stop_inverted/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/three/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/three2/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/two_up/val.txt"
+  - "F:/AIgesture/HaGRID/trainval/two_up_inverted/val.txt"
+
+test:  # test images (optional)
+data_type: voc
+
+# Classes
+nc: 14 # number of classes
+names: { 'one': 0, 'two_up': 1, 'two_up_inverted': 2, 'three': 3, 'three2': 4,
+         'four': 5, 'fist': 6, 'palm': 7, 'ok': 8,
+         'like': 9, 'dislike': 10,
+         'call': 11, 'rock': 12, 'no_gesture': 13 }
